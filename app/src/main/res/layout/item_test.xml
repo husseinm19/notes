@@ -1,0 +1,73 @@
+<androidx.cardview.widget.CardView
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_margin="10dp"
+app:cardElevation="10dp"
+android:elevation="10dp"
+android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_weight=".6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="9 septemper"
+            android:padding="6dp"
+            android:textColor="@color/colorRed"
+            android:id="@+id/txt_date"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Title"
+            android:maxLines="1"
+            android:padding="6dp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txt_title"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="Hellow World This A Dummy Text Just For Testing How It Gonna Looks Like If There A Lot Of Lines."
+            android:layout_below="@+id/txt_title"
+            android:maxLines="4"
+            android:padding="6dp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txt_note"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
